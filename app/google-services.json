@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "776806972506",
+    "firebase_url": "https://egisroad.firebaseio.com",
+    "project_id": "egisroad",
+    "storage_bucket": "egisroad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776806972506:android:b96ae986196e60b50cec63",
+        "android_client_info": {
+          "package_name": "com.example.egisquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776806972506-4mavm8622ldejsopjsqbbu6m846k8dqg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbJzEiy2bDbZqumw3YtF9Oepslc3dVlCA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776806972506-4mavm8622ldejsopjsqbbu6m846k8dqg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

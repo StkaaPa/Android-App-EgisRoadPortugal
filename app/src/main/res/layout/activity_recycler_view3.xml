@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorOla"
+    android:orientation="vertical"
+    tools:context=".RecyclerView3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/b0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bordas"
+            android:padding="5dp"
+            android:drawableStart="@mipmap/ic_goback"
+            android:gravity="center"
+            android:text="VOLTAR AO MENU PRINCIPAL"
+            android:textColor="#062C3A"
+            android:textSize="20sp"
+            android:textStyle="italic|bold" />
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/b0"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/bordas"
+            android:drawableStart="@mipmap/ic_cap1"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:text="1. REALIZAÇÃO DOS \nTRABALHOS NA A24"
+            android:textColor="#062C3A"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/b1"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/bordas"
+            android:padding="5dp"
+            android:drawableStart="@mipmap/ic_cap2"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:text="2. CAUSAS DE ACIDENTES QUE PODEM DAR ORIGEM A DANOS"
+            android:textColor="#062C3A"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/b2"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/bordas"
+            android:padding="5dp"
+            android:drawableStart="@mipmap/ic_cap3"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:text="3. CONDUÇÃO NA A24"
+            android:textColor="#062C3A"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/b3"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/bordas"
+            android:padding="5dp"
+            android:drawableStart="@mipmap/ic_cap4"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:text="4. MANOBRAS E ESTACIONAMENTO \nDE VEÍCULOS E MÁQUINAS"
+            android:textColor="#062C3A"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/b5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/b4"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/bordas"
+            android:padding="5dp"
+            android:drawableStart="@mipmap/ic_cap5"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:text="5. SUBIDA E DESCIDA \nDE VEÍCULOS"
+            android:textColor="#062C3A"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/b6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/b5"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/bordas"
+            android:padding="5dp"
+            android:drawableStart="@mipmap/ic_cap6"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:text="6. CIRCULAR A PÉ \nNA AUTOESTRADA"
+            android:textColor="#062C3A"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/b7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/b6"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/bordas"
+            android:padding="5dp"
+            android:drawableStart="@mipmap/ic_cap7"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:text="7. TRANSPORTE DE PESSOAL"
+            android:textColor="#062C3A"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/b8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/b7"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/bordas"
+            android:padding="5dp"
+            android:drawableStart="@mipmap/ic_cap8"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:text="8. SINALIZAÇÃO"
+            android:textColor="#062C3A"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/b9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/b8"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/bordas"
+            android:padding="5dp"
+            android:drawableStart="@mipmap/ic_cap9"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:text="9. PASSAGEM SOB TENSÃO: LINHAS E CONDUTAS"
+            android:textColor="#062C3A"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/b10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/b9"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/bordas"
+            android:padding="5dp"
+            android:drawableStart="@mipmap/ic_cap10"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:text="10. ESTATÍSTICAS \nE CASOS REAIS"
+            android:textColor="#062C3A"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorOla"
+    android:padding="10dp"
+    tools:context=".capitulo7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center_horizontal"
+            android:text="7 - TRANSPORTE DE PESSOAL"
+            android:textColor="#062C3A"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorAccent"
+            android:fontFamily="sans-serif-smallcaps"
+            android:padding="5dp"
+            android:text="•	Fazer-se sempre acompanhar da autorização de trabalhos (PMR-07-1-VX) fornecida pela Egis Road Operation Portugal. A falta da apresentação da Autorização de Trabalhos é razão para a imediata suspensão dos trabalhos.
+            \n\n• Para a execução dos trabalhos deverá fornecer ao Operador de Tráfego da Egis Road Operation Portugal (nº 254 697 100) a seguinte informação:
+            \n\n• No início: identificação da entidade, número de autorização de trabalhos, hora de início, hora prevista de términos, localização dos trabalhos e tipo de trabalhos a executar."
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ligar" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorAccent"
+            android:fontFamily="sans-serif-smallcaps"
+            android:padding="5dp"
+            android:text="•	No final: identificação da entidade, número de autorização de trabalhos, hora de finalização, trabalhos executados e respetiva localização, indicação da necessidade de regresso aos trabalhos no dia seguinte e caso se regresse aos trabalhos, informar das necessidades para o dia seguinte.
+            \n\n• Todo o colaborador da Egis Road Operation Portugal tem funções de fiscalização sobre o teor dos trabalhos e do respeito pelas regras de segurança. Estas regras e sinalização devem ser cumpridas por todas as entidades que trabalham na A24.\n"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorAccent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/txt1" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/txt3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:src="@drawable/txt5" />
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:src="@drawable/txt4" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/txt2" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorAccent"
+            android:fontFamily="sans-serif-smallcaps"
+            android:padding="5dp"
+            android:text="•	Os trabalhadores que desempenhem funções na autoestrada são obrigados a respeitar o código da estrada e atuar sempre com civismo.
+            \n\n•	É obrigatório o uso de colete refletor sempre que se circula a pé na autoestrada, assim como dos EPI (Equipamentos de Proteção Individual) específicos para cada um dos trabalhos que têm de ser realizados."
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="Capitulo 6"
+                android:background="@drawable/rounded_button"
+                android:layout_marginEnd="10dp"
+                android:textSize="15sp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:background="@drawable/rounded_button"
+                android:layout_weight="1"
+                android:text="Indice"
+                android:layout_marginEnd="10dp"
+                android:textSize="15sp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_button"
+                android:text="Capítulo 8"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
